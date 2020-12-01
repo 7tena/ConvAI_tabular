@@ -8,7 +8,7 @@ Tool for querying natural language on tabular data like csvs,excel sheet,etc.
 
 
 ### Configuration:
-```git clone https://github.com/abhijithneilabraham/tableQA ```  
+```git clone https://github.com/adwaith2000/ConvAI_tabular.git ```  
 
 ```cd tableqa```
 
