@@ -5,7 +5,7 @@ const landingPage = () => {
     <div>
       <h1>Conversational AI on Tabular Data</h1>
       <br />
-      <p >
+      <p className="landing-text" >
         In this fast technologically advancing world, it has become important
         for the humans to interact with computers to provide assistance in many
         fields like medicine, education, space research, etc. Retrieval of the

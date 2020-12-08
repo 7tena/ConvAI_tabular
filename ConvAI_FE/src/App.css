@@ -25,6 +25,13 @@ label {
   color: #6c4c92;
 }
 
+.landing-text{
+    width: 75%;
+    margin-left: 250px;
+    text-align: center;
+    line-height:30px;
+}
+
 p {
   text-align: center;
 
