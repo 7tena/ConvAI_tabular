@@ -9,7 +9,7 @@ class Agent:
         self.schema_dir=schema_dir
         
     
-    def get_response(self,question):
+    def get_query(self,question):
         try:
             data_process=data_utils(self.data_dir,self.schema_dir)
             data_process.create_vocab()
