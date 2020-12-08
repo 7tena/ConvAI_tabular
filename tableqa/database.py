@@ -34,7 +34,7 @@ class Database:
             sql_schema[colname] = coltype
         data_frame.to_sql(schema['name'].lower(), con=engine, if_exists='replace', dtype=sql_schema)
         agent=Agent(self.data_dir,self.schema_dir)
-        query=agent.get_response(question)      
+        query=agent.get_query(question)      
         return engine.execute(query).fetchall()
 
 
