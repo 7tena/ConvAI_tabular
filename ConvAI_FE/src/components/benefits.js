@@ -8,8 +8,7 @@ const benefits = () => {
           <h3 class="text-center">Advantage</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            repudiandae a ipsum minima ut eaque assumenda nesciunt quia,
-            eligendi 
+            repudiandae a ipsum minima ut eaque assumenda nesciunt quia, 
           </p>
         </div>
         <div class="col-md-4">
