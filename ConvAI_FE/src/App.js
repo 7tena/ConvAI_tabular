@@ -1,11 +1,16 @@
-import './App.css';
-import InputCard from './components/inputcard'
+import "./App.css";
+import InputCard from "./components/userInput";
+import LandingPage from "./components/landingPage";
+import Benefits from "./components/benefits";
 
 function App() {
   return (
     <div className="App">
-     <h1>Conversational AI on Tabular Data</h1>
-     <InputCard />
+      <LandingPage />
+      <br/>
+      <InputCard />
+      <br/>
+      <Benefits />
     </div>
   );
 }
