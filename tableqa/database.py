@@ -13,7 +13,7 @@ class Database:
         self.schema_dir=schema_dir
         self.nlp=Nlp(data_dir,schema_dir)
         self.data_process=data_utils(data_dir, schema_dir)
-    def Query_Sqlite(self,question):
+    def query_db(self,question):
         engine = create_engine('sqlite://', echo=False)
         csv=self.nlp.csv_select(question)
         data_frame=self.data_process.get_dataframe(csv).astype(str)
