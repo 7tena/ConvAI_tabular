@@ -22,15 +22,16 @@ Keep the csv data and the schemas in seperate folders. Refer ```cleaned_data``` 
 #### Getting an SQL query from csv 
 
 ```
-from agent import Agent
-agent=Agent(csv_path,schema_path) #specify the data and schema directories.
-print(agent.get_query("Your question here")) #returns an sql query
+from tableqa.agent import Agent
+agent=Agent(df) #input your dataframe
+sql=agent.get_query("Your question here")  
+print(sql) #returns an sql query
 ```
 
 #### Do Sample query on sqlite database
 ```
-from database import Database
-database=Database(csv_path,schema_path)
-response=database.query_db("Your question here")
-print("Response ={}".format(response)) #returns the result of the sql query after feeding the csv to the database
+from tableqa.agent import Agent
+agent=Agent(df) #input your dataframe
+response=agent.query_db("Your question here")
+print(response)
 ```
